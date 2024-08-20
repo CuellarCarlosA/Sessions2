@@ -4,7 +4,7 @@
     padding: 0;
     border: 0;
     font-family: 'Montserrat', sans-serif;;
-    font-size: 12px;
+    font-size: 100%;
 }
 header{
     max-height: 100px;
@@ -41,33 +41,106 @@ nav a{
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;  
-
 }
 .jumbotron .textos{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 28px;
-    align-items: center;
+    padding-right: 12%;
 }
-.textos .contenedor-promo{
-    align-content: center;
-    
-    padding-top: 0%;
+.promo{
+    width: 50%px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding-left: 15%;
+}
+.contenedor-promo{
+    width: 75%;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99188a;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.contenedor-promo:hover{
+    transform: scale(1.1); /* Aumenta el tamaño un 10% */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.conoce{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.cantidad{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: 15px;
 }
 .contenedor-promo a{
-    border: 1px solid black;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: #99188a;
-    color: #FFFFFF;
+    color: #fff;
+}
+.textos h1{
+    font-size: 3em;
+    line-height: 1.3;
+    letter-spacing: px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    display: inline-block;
+    color:#333333;
+    margin-bottom: 30px;
+}
+.textos p{
+    color: #6a3f5e;
     font-size: 1.3em;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.textos .aviso{
+    font-size: 1em;
+
+}
+.textos p a{
+    text-decoration: none;
+    color: #99188a;
+}
+.textos .formulario input{
+    margin-top: 20px;
+    border: 1px solid #6a3f5e;
+    border-radius: 7px;
+    text-align: center;
+    width: 70%;
+    height: 30px;
+}
+.formulario input:focus{
+    border: 1px solid #99188a;
+    outline: none;
+}
+.formulario button{
+    margin-left: 15px;
+    background-color: #6a3f5e;
+    height: 20px;
+    width: 12%;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.formulario button:hover{
+    transform: scale(1.1); /* Aumenta el tamaño un 10% */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.formulario button:active{
+    background-color:#99188a;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.3);
+    transform: translateY(2px);
 }
 .jumbotron .contenedor-imagen{
     width: 50%;
 }
 .contenedor-imagen img{
     width: 200%;
-    
 }
+
+/*estilizar el contenedor de los blogs

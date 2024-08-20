@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 12px;
+}
+header{
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: rgb(224,224,224);
+    background: linear-gradient(180deg, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+}
+.logo img{
+    width: 25%;
+    min-width: 100px;
+}
+header .nav{
+    padding-right: 3%;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    padding-left: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #99188a;
+    font-size: 1.2em;
+}
+
+/*Aqui estilizaremos el jumbotron*/
+.jumbotron{
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;  
+
+}
+.jumbotron .textos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 28px;
+    align-items: center;
+}
+.textos .contenedor-promo{
+    align-content: center;
+    
+    padding-top: 0%;
+}
+.contenedor-promo a{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #99188a;
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+.jumbotron .contenedor-imagen{
+    width: 50%;
+}
+.contenedor-imagen img{
+    width: 200%;
+    
+}

@@ -12,7 +12,7 @@ header{
     align-items: center;
     padding: 10px;
     background: rgb(224,224,224);
-    background: linear-gradient(180deg, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 0%, rgba(255,255,255,1) 100%);
 }
 .logo img{
     width: 25%;
@@ -143,4 +143,76 @@ nav a{
     width: 200%;
 }
 
-/*estilizar el contenedor de los blogs
+/*estilizar el contenedor de los blogs*/
+.contenedor-blog{
+    margin-top: -1%;
+    background-color: rgb(200,200,200);
+    padding-bottom: 7%;
+}
+.blog-textos{
+    padding-top: 7%;
+    text-align: center;
+}
+.blog-textos h2{
+    font-size: 2.2em;
+    color:#333333;
+    margin-bottom: 1%;
+    letter-spacing: 1px;
+}
+.blog-textos p{
+    color:#6a3f5e;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.cards-blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cards-blogs article{
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(224,224,224);
+}
+.cards-blogs img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.cards-blogs .rate{
+    color:#333333;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+}
+.cards-blogs h3{
+    color:#333333;
+    font-size: 1.2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+}
+.cards-blogs .card-description{
+    color: #6a3f5e;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+/*Estilizando la parte de adicionales*/
+.adicionales{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.adicionales img{
+    width: 100%;
+}

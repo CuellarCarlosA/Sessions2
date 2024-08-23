@@ -43,7 +43,7 @@ nav a{
     grid-row-gap: 0px;  
 }
 .jumbotron .textos{
-    padding-right: 12%;
+    padding-right: 0%;
 }
 .promo{
     width: 50%px;
@@ -76,6 +76,7 @@ nav a{
 }
 .contenedor-promo a{
     color: #fff;
+    font-size: 1.5rem;
 }
 .textos h1{
     font-size: 3em;
@@ -138,9 +139,10 @@ nav a{
 }
 .jumbotron .contenedor-imagen{
     width: 70%;
+    padding-right: 2%;
 }
 .contenedor-imagen img{
-    width: 200%;
+    width: 180%;
 }
 
 /*estilizar el contenedor de los blogs*/
